@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Search on Amazon India",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
